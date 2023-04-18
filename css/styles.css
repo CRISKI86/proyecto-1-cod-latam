@@ -2,11 +2,10 @@
 
 /* Fonts */
 /* Importar aquí la font */
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 /* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
 *  cuyos valores asigna por defecto el navegador.
 */
-
 /* Reset */
 * {
   box-sizing: border-box;
@@ -16,9 +15,35 @@
   scroll-behavior: smooth;
 }
 
-/* Para quitar los puntos a los items de listas */
-ul {
-  list-style: none;
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #fbfbfb ;
+  font-size: 18px;
+}
+
+header {
+  position: relative;
+  min-width: 100vh;
+  box-shadow: 0 0 20px #000000;
+}
+
+nav {
+  display: flex;
+  width: 50%;
+  padding: 5px 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 100px;
+  border-radius: 50px;
+}
+
+nav ul li {
+  list-style: none; /* Para quitar los puntos a los items de listas */
+  display: inline-block;
+  margin: 10px 20px;
 }
 
 /* Para que los enlaces hereden el color de texto y no tengan subrayado */
@@ -33,6 +58,19 @@ a {
 main {
   max-width: 1200px;
   margin: auto;
+  min-height: 100vh;
+}
+
+footer {
+  background-color: #af599e;
+  color: #fbfbfb;
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  text-align: center;
 }
 
 /* Recomendaciones!
