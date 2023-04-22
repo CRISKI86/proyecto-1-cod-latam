@@ -32,7 +32,6 @@ ul {
 a {
     text-decoration: none;
     color: inherit;
-    justify-items: center;
 }
 
 /* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
@@ -51,21 +50,20 @@ header {
     box-shadow: 1px 3px 11px -5px #000000;
     position:fixed;
     top:0;
+    right: 0;
+    left: 0;
     background:#fbfbfb;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 16px;
-}
-
-span {
-    color:#af599e;
+    padding: 10px;
+    margin-top: 20px;
 }
 
 .menu {
-    display: flex;
+    display: inline-flex;
     width: 50%;
     justify-content: space-around;
 }
@@ -74,6 +72,10 @@ h1 {
     font-size: 36px;
     text-align: center;
     margin-top: 10px;
+}
+
+span {
+    color:#af599e;
 }
 
 p {
@@ -98,8 +100,8 @@ h2 {
 
 img {
     max-width: 400px;
-    border: 5px solid #af599e;
     border-radius: 200px;
+    padding: 20px;
 }
 
 .boton-cv {
@@ -131,6 +133,8 @@ img {
 
 #inicio #contacto {
     min-height: 100vh;
+    align-items: center;
+    justify-content: center;
 }
 
 .bi {
