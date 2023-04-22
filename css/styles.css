@@ -89,6 +89,11 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    font-size: 40px;
+    margin-top: -10px;
+}
+
 .imagen-top {
     margin-top: 120px;
     margin-left: 20px;
