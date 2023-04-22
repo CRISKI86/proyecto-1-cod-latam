@@ -68,6 +68,10 @@ header {
     justify-content: space-around;
 }
 
+.menu a:hover {
+    color: #af599e;
+}
+
 h1 {
     font-size: 36px;
     text-align: center;
