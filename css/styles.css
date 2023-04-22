@@ -148,6 +148,7 @@ img {
 }
 
 footer {
+    width: 100vw;
     height: 90px;
     background-color: #af599e;
     color: #fbfbfb;
