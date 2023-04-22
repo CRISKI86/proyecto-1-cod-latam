@@ -97,7 +97,7 @@ h2 {
 }
 
 img {
-    width: 400px;
+    max-width: 400px;
     border: 5px solid #af599e;
     border-radius: 200px;
 }
@@ -127,6 +127,10 @@ img {
     border-radius: 20px;
     padding-top: 20px;
     padding-bottom: 10px;
+}
+
+#inicio #contacto {
+    min-height: 100vh;
 }
 
 .bi {
